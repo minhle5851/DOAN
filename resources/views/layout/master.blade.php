@@ -1,0 +1,349 @@
+ <!DOCTYPE html>
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <link rel="stylesheet" type="text/css" href="{!!url("resources/assets/css/bootstrap.css")!!}"/>
+        <link rel="stylesheet" type="text/css" href="{!!url("resources/assets/css/style.css")!!}"/>
+        <link rel="stylesheet" type="text/css" href="{!!url("resources/assets/css/general.css")!!}"/>
+        <link rel="stylesheet" type="text/css" href="{!!url("resources/assets/vendor/owl-slider.css")!!}"/>
+        <link rel="stylesheet" type="text/css" href="{!!url("resources/assets/vendor/settings.css")!!}"/>
+        <link rel="shortcut icon" href="{!!url("resources/assets/images/favicon.png")!!}" />
+        <link rel="stylesheet" type="text/css" href="{!!url("resources/assets/vendor/slick.css")!!}"/>
+        <link rel="stylesheet" type="text/css" href="{!!url("resources/assets/vendor/settings.css")!!}"/>
+        <link rel="stylesheet" type="text/css" href="{!!url("resources/assets/vendor/range-price.css")!!}"/>
+        <link rel="stylesheet" type="text/css" href="{!!url("resources/assets/fontawesome/web-fonts-with-css/css/fontawesome-all.css")!!}"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,500,700,300' rel='stylesheet' type='text/css'>
+       
+
+        <!-- MetisMenu CSS -->
+        <link href="{!!url("resources/assets/js/metisMenu.min.js")!!}" rel="stylesheet">
+
+        <!-- DataTables CSS -->
+        <link href="{!!url("resources/assets/css/dataTables/dataTables.bootstrap.css")!!}" rel="stylesheet">
+
+        <!-- DataTables Responsive CSS -->
+        <link href="{!!url("resources/assets/css/dataTables/dataTables.responsive.css")!!}" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="{!!url("resources/assets/css/startmin.css")!!}" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="{!!url("resources/assets/css/font-awesome.min.css")!!}" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="{!!url("resources/assets/js/jquery-3.2.0.min.js")!!}"></script>
+        <title>@yield(' title ')</title>
+        <meta name="description" content="@title('description')">
+    </head>
+    
+    <body>
+        <style>.fb-livechat, .fb-widget{display: none}.ctrlq.fb-button, .ctrlq.fb-close{position: fixed; right: 24px; cursor: pointer}.ctrlq.fb-button{z-index: 999; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyOCAxMjgiIGhlaWdodD0iMTI4cHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB3aWR0aD0iMTI4cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxyZWN0IGZpbGw9IiMwMDg0RkYiIGhlaWdodD0iMTI4IiB3aWR0aD0iMTI4Ii8+PC9nPjxwYXRoIGQ9Ik02NCwxNy41MzFjLTI1LjQwNSwwLTQ2LDE5LjI1OS00Niw0My4wMTVjMCwxMy41MTUsNi42NjUsMjUuNTc0LDE3LjA4OSwzMy40NnYxNi40NjIgIGwxNS42OTgtOC43MDdjNC4xODYsMS4xNzEsOC42MjEsMS44LDEzLjIxMywxLjhjMjUuNDA1LDAsNDYtMTkuMjU4LDQ2LTQzLjAxNUMxMTAsMzYuNzksODkuNDA1LDE3LjUzMSw2NCwxNy41MzF6IE02OC44NDUsNzUuMjE0ICBMNTYuOTQ3LDYyLjg1NUwzNC4wMzUsNzUuNTI0bDI1LjEyLTI2LjY1N2wxMS44OTgsMTIuMzU5bDIyLjkxLTEyLjY3TDY4Ljg0NSw3NS4yMTR6IiBmaWxsPSIjRkZGRkZGIiBpZD0iQnViYmxlX1NoYXBlIi8+PC9zdmc+) center no-repeat #0084ff; width: 60px; height: 60px; text-align: center; bottom: 50px; border: 0; outline: 0; border-radius: 60px; -webkit-border-radius: 60px; -moz-border-radius: 60px; -ms-border-radius: 60px; -o-border-radius: 60px; box-shadow: 0 1px 6px rgba(0, 0, 0, .06), 0 2px 32px rgba(0, 0, 0, .16); -webkit-transition: box-shadow .2s ease; background-size: 80%; transition: all .2s ease-in-out}.ctrlq.fb-button:focus, .ctrlq.fb-button:hover{transform: scale(1.1); box-shadow: 0 2px 8px rgba(0, 0, 0, .09), 0 4px 40px rgba(0, 0, 0, .24)}.fb-widget{background: #fff; z-index: 1000; position: fixed; width: 360px; height: 435px; overflow: hidden; opacity: 0; bottom: 0; right: 24px; border-radius: 6px; -o-border-radius: 6px; -webkit-border-radius: 6px; box-shadow: 0 5px 40px rgba(0, 0, 0, .16); -webkit-box-shadow: 0 5px 40px rgba(0, 0, 0, .16); -moz-box-shadow: 0 5px 40px rgba(0, 0, 0, .16); -o-box-shadow: 0 5px 40px rgba(0, 0, 0, .16)}.fb-credit{text-align: center; margin-top: 8px}.fb-credit a{transition: none; color: #bec2c9; font-family: Helvetica, Arial, sans-serif; font-size: 12px; text-decoration: none; border: 0; font-weight: 400}.ctrlq.fb-overlay{z-index: 0; position: fixed; height: 100vh; width: 100vw; -webkit-transition: opacity .4s, visibility .4s; transition: opacity .4s, visibility .4s; top: 0; left: 0; background: rgba(0, 0, 0, .05); display: none}.ctrlq.fb-close{z-index: 4; padding: 0 6px; background: #365899; font-weight: 700; font-size: 11px; color: #fff; margin: 8px; border-radius: 3px}.ctrlq.fb-close::after{content: "X"; font-family: sans-serif}.bubble{width: 20px; height: 20px; background: #c00; color: #fff; position: absolute; z-index: 999999999; text-align: center; vertical-align: middle; top: -2px; left: -5px; border-radius: 50%;}.bubble-msg{width: 120px; left: -140px; top: 5px; position: relative; background: rgba(59, 89, 152, .8); color: #fff; padding: 5px 8px; border-radius: 8px; text-align: center; font-size: 13px;}</style><div class="fb-livechat"> <div class="ctrlq fb-overlay"></div><div class="fb-widget"> <div class="ctrlq fb-close"></div><div class="fb-page" data-href="https://www.facebook.com/itmantravel" data-tabs="messages" data-width="360" data-height="400" data-small-header="true" data-hide-cover="true" data-show-facepile="false"> </div><div class="fb-credit"> <a href="https://chanhtuoi.com" target="_blank">Powered by Chanhtuoi</a> </div><div id="fb-root"></div></div><a href="https://m.me/itmantravel" title="Gửi tin nhắn cho chúng tôi qua Facebook" class="ctrlq fb-button"> <div class="bubble">1</div><div class="bubble-msg">Bạn cần hỗ trợ?</div></a></div><script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><script>$(document).ready(function(){function detectmob(){if( navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i) ){return true;}else{return false;}}var t={delay: 125, overlay: $(".fb-overlay"), widget: $(".fb-widget"), button: $(".fb-button")}; setTimeout(function(){$("div.fb-livechat").fadeIn()}, 8 * t.delay); if(!detectmob()){$(".ctrlq").on("click", function(e){e.preventDefault(), t.overlay.is(":visible") ? (t.overlay.fadeOut(t.delay), t.widget.stop().animate({bottom: 0, opacity: 0}, 2 * t.delay, function(){$(this).hide("slow"), t.button.show()})) : t.button.fadeOut("medium", function(){t.widget.stop().show().animate({bottom: "30px", opacity: 1}, 2 * t.delay), t.overlay.fadeIn(t.delay)})})}});</script>
+    <!-- <div class="awe-page-loading">
+         <div class="awe-loading-wrapper">
+            <div class="awe-loading-icon">
+               <img src="{!!url("resources/assets/images/logo.png")!!}" alt="images">
+            </div>
+            <div class="progress">
+               <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+         </div>
+      </div>  -->
+    
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content popup-search">
+                <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+                <div class="modal-body">
+                    <form class="input-group" method="get" action="{{route('search')}}">
+                        <input type="text" class="form-control control-search" name="Timkiem" placeholder="Nhập tên rau, trái cây hay loại củ quả mà bạn muốn tìm kiếm...">
+                        <button class="button_search" type="submit">Tìm kiếm</button>
+                    </form>                        
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    <!-- End pushmenu -->
+    <div class="wrappage">
+        <!-- <div id="rtl">RTL</div> -->
+        <header id="header" class="header-v3 header-v3-new">
+            <!--End float-left-->
+            <div class="right">
+                <div id="topbar" class="topbar-ver2">
+                    <div class="container container-ver2">
+                        <a class="logo-header-v3" href="{{route('homepage')}}" title="Logo-FreshFood"><img src="{!!url("resources/assets/images/logo-header3.png")!!}" alt="FreshFood"></a>
+                        <div class="inner-topbar box">
+                            <div class="float-left">
+                                <p><img src="{!!url("resources/assets/images/icon-phone-header.png.png")!!}" alt="icon"> Gọi cho chúng tôi <span> 099-999-9999</span></p>
+                            </div>
+                            <div class="float-right align-right">
+                                    <?php
+                                        if(session()->get('typeuser') != 0){
+                                            if(session()->get('typeuser')==1){
+                                                echo ('<div class="hover-menu"> <small> Xin Chào,  </small><p>'.session()->get('name').'</p>');
+                                                echo('<ul class="list-menu"><li><a href="'.route('listpro').'" title="Thông Tin Tài Khoản">Tài Khoản</a></li><li><a href="'.route('logout').'" title="Đăng Xuất">Đăng Xuất</a></li></ul></div>');
+                                            }else if(session()->get('typeuser')==2){
+                                                echo ('<div class="hover-menu"> <small> Xin Chào,  </small><p>'.session()->get('name').'</p>');
+                                                echo('<ul class="list-menu"><li><a href="'.route('Buyer_Infor').'" title="Thông Tin Tài Khoản">Tài Khoản</a></li><li><a href="'.route('logout').'" title="Đăng Xuất">Đăng Xuất</a></li></ul></div>');
+                                            }else if(session()->get('typeuser')==3){
+                                                echo ('<div class="hover-menu"> <small> Xin Chào,  </small><p> '.session()->get('name').'</p>');
+                                                echo('<ul class="list-menu"><li><a href="'.route('listprosale').'" title="Thông Tin Tài Khoản">Tài Khoản</a></li><li><a href="'.route('logout').'" title="Đăng Xuất">Đăng Xuất</a></li></ul></div>');
+                                            }
+                                        }else{
+                                            echo('<div class="hover-menu">
+                                    <a class="acc" href="#" title="USD"><img src="'.url("resources/assets/images/icon-user-header.png").'" alt="icon">Tài khoản</a>
+                                    <ul class="list-menu">
+                                        <li><a href="'.route('signin').'" title="USD">Đăng nhập</a></li>
+                                        <li><a href="'.route('signup').'" title="VND">Đăng ký</a></li>
+                                    </ul>
+                                </div>');
+                                        }
+                                    ?>
+
+                                <!-- End hover-menu -->
+
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="header-top">
+                        <div class="container container-ver2">
+                        <div class="box">
+                            <p class="icon-menu-mobile"><i class="fa fa-bars" ></i></p>
+                            <div class="logo-mobile"><a href="#" title="FreshFood"><img src="{!!url("resources/assets/images/logo-v2.png")!!}" alt="FreshFood-Logo")!!}"></a></div>
+                            <div class="box-right">
+                                @if(session()->get('typeuser')==2)
+                                <div class="cart hover-menu">
+                                        <p class="icon-cart" title="Add to cart">
+                                            <i class="icon"></i>
+                                            <span class="cart-count">{{Cart::content()->count()}}</span>
+                                        </p>
+                                        <div class="cart-list list-menu">
+                                            <ul class="list">
+                                                @foreach(Cart::content() as $item)
+                                                <li>
+                                                    <a href="#" title="" class="cart-product-image"><img src="{!!url("resources/assets/images/products/{$item->options['img']}")!!}" alt="Product"></a>
+
+                                                    <div class="text">
+                                                        <p class="product-name">{{$item->name}}</p>
+                                                        <p class="product-price"><span class="price">{{number_format($item->price,0,',','.')}}</span></p>
+                                                        <p class="qty">{{$item->qty}}</p><p>{{$item->options['unit']}}</p>
+                                                    </div>
+                                                    <a class="close" href="{{route('deleteproductmaster',['id'=>$item->rowId])}}" title="close"><i class="fa fa-times-circle"></i></a>
+                                                </li> 
+                                                @endforeach
+                                            </ul>
+                                            <p class="total"><span class="left">Tổng:</span> <span class="right">{{Cart::subtotal()}} VND</span></p>
+                                            <div class="bottom">
+                                                <a class="link-v1 rt" href="{{route('shopping')}}" title="viewcart">Xem giỏ hàng</a>
+                                                @if(Cart::count()==0)
+                                                <a class="link-v1 rt" href="{{route('homepage')}}" title="checkout">Đặt hàng</a>
+                                                @endif()
+                                                @if(Cart::count()!=0)
+                                                <a class="link-v1 rt" href="{{route('Checkout')}}" title="checkout">Đặt hàng</a>
+                                                @endif
+                                            </div>
+                                        </div>
+                                </div>
+                                @endif
+                                <div class="search dropdown" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                    <i class="icon"></i>
+                                </div>                               
+                            </div>
+                            <nav class="mega-menu">
+                           <ul class="nav navbar-nav" id="navbar">
+                            <li class="level1"><a href="{{action('ControllerHome@home')}}" title="Home">Trang chủ</a></li>
+                            <li class="level1 dropdown">
+                                <a href="#" title="Category">Danh mục</a>
+                                <div class="sub-menu sub-menu-v2 dropdown-menu">
+                                <div class="top-sub-menu">
+
+                                    <img src="{!!url("resources/assets/images/banner/t1.jpg")!!}" alt="images">
+                                </div>
+                                  <ul class="menu-level-1">
+                                    <li class="level2"><a href="#">Thực phẩm tươi sạch</a>
+                                        <ul class="menu-level-2">
+                                            <?php $cate = DB::table('loaisanpham')->select('tenloaisp','MALOAISP')->get(); ?>
+                                            @foreach($cate as $value)
+                                                @if($value->MALOAISP == 4)
+                                                    <li class="level3"><a href="{{url('catalog?id=4')}}" title="Series"><?php echo $value->tenloaisp; ?></a></li>
+                                                @endif()
+                                                @if($value->MALOAISP == 5)
+                                                    <li class="level3"><a href="{{url('catalog?id=5')}}" title="Series"><?php echo $value->tenloaisp; ?></a></li>
+                                                @endif
+                                                @if($value->MALOAISP == 6)
+                                                    <li class="level3"><a href="{{url('catalog?id=6')}}" title="Series"><?php echo $value->tenloaisp; ?></a></li>
+                                                @endif
+                                            @endforeach
+                                        </ul>
+                                    </li>
+                                  </ul>
+                              </div>
+                            <li class="level1"><a href="{{action('ControllerHome@about')}}" title="About us">Giới thiệu</a></li>
+                            <li class="level1"><a href="{{route('Cnt')}}" title="Contact us">Liên hệ</a></li>
+                          </ul>
+                        </nav>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+        </header>
+        
+        @yield('content')
+        <div id="back-to-top">
+        <i class="fa fa-long-arrow-up"></i>
+        </div>
+        <footer id="footer" class="footer-v3 align-left">
+              <div class="container container-ver2">
+                <div class="footer-inner">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <h3 class="title-footer">Liên hệ</h3>
+                            <p>Với hơn 10 năm kinh nghiệm, chúng tôi tự hào là doanh nghiệp dẫn đầu trong thị trường rau sạch và được tin dùng bởi hơn 100.000 khách hàng...</p>
+                            <a class="link-footer" href="#" title="footer">Xem thêm <i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <h3 class="title-footer">Thông tin</h3>
+                            <ul class="list-footer">
+                                <li><a href="{{route('Ship')}}" title="title">Chính sách giao hàng</a></li>
+                                <li><a href="{{route('Le')}}" title="title">Pháp lý</a></li>
+                                <li><a href="{{route('Term')}}" title="title">Điều khoản & điều kiện</a></li>
+                                <li><a href="{{route('About')}}" title="title">Giới thiệu</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <h3 class="title-footer">Mạng xã hội</h3>
+                            <div class="social space-30">
+                                <a href="#" title="t"><i class="fa fa-twitter"></i></a>
+                                <a href="#" title="f"><i class="fa fa-facebook"></i></a>
+                                <a href="#" title="y"><i class="fa fa-youtube-play"></i></a>
+                                <a href="#" title="g"><i class="fa fa-google"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <h3 class="title-footer">Địa chỉ</h3>
+                            <p>Văn phòng: 475A Điện Biên Phủ, Phường 25, Quận Bình Thạnh, TP.Hồ Chí Minh</p>
+                            <p>Số điện thoại: 099-999-9999</p>
+                        </div>
+                    </div>
+                    <!-- End row -->
+                  </div>
+                  <!-- End footer-inner -->
+              </div>
+              <!-- End container -->
+              <div class="footer-bottom box">
+                <div class="container container-ver2">
+                    <div class="box bottom">
+                        <p class="float-left">Copyright &copy;2018 <strong>Team PTTT</strong> - All Rights Reserved.</p>
+                        <div class="float-right">
+                            <ul class="menu-bottom-footer">
+                                <li><a href="{{route('Cnt')}}" title="Contact Us">Liên hệ</a></li>
+                                <li><a href="{{route('Term')}}" title="Term of Use">Điều khoản sử dụng</a></li>
+                                <li><a href="{{route('Le')}}" title="Privacy Policy">Chính sách pháp lý</a></li>
+                                <li><a href="#" title="Site Map">Bản đồ</a></li>
+                            </ul>
+                            <div class="language">
+                                <span>Ngôn ngữ:</span>
+                                <div class="hover-menu">
+                                    <p>VN <i class="fa fa-angle-down"></i></p>
+                                    <div class="list-menu">
+                                        <ul>
+                                            <li><a href="#" title="EN">VN</a></li>
+                                            <li><a href="#" title="VN">EN</a></li>
+                                        </ul>
+                                    </div>    
+                                </div>
+                                <span>Giá:</span>
+                                <div class="hover-menu">
+                                    <p>VND <i class="fa fa-angle-down"></i></p>
+                                    <div class="list-menu">
+                                        <ul>
+                                            <li><a href="#" title="USD">VND</a></li>
+                                            <li><a href="#" title="VND">USD</a></li>
+                                        </ul>
+                                    </div>    
+                                </div>
+                            </div>
+                            <!-- End language -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End container -->
+              </div>
+        </footer>
+        </div>
+    <!-- End wrappage -->
+    <script type="text/javascript" src="{!!url("resources/assets/js/bootstrap.min.js")!!}"></script>
+    <script type="text/javascript" src="{!!url("resources/assets/js/owl.carousel.min.js")!!}"></script>
+    <script type="text/javascript" src="{!!url("resources/assets/js/jquery.themepunch.revolution.min.js")!!}"></script>
+    <script type="text/javascript" src="{!!url("resources/assets/js/jquery.themepunch.plugins.min.js")!!}"></script>
+    <script type="text/javascript" src="{!!url("resources/assets/js/engo-plugins.js")!!}"></script>
+    
+    <script type="text/javascript" src="{!!url("resources/assets/js/slick.min.js")!!}"></script>
+    <script type="text/javascript" src="{!!url("resources/assets/js/store.js")!!}"></script>
+    <script type="text/javascript" src="{!!url("resources/assets/js/jquery.zoom.js")!!}"></script>
+    <script type="text/javascript" src="{!!url("resources/assets/js/jquery.mousewheel.min.js")!!}"></script>
+    <script type="text/javascript" src="{!!url("resources/assets/js/price-range.js")!!}"></script>
+    <script type="text/javascript" src="{!!url("resources/assets/js/mainjs.js")!!}"></script>
+    {{-- <!-- jQuery -->
+    <script type="text/javascript" src="{!!url("resources/assets/js/jquery.min.js")!!}"></script> --}}
+    <script type="text/javascript">
+      jQuery("#Slider1").slider({ 
+        from: 0,
+        to: 1000,
+        step: 100,
+        smooth: true,
+        round: 0,
+        skin: "plastic"
+        });
+    </script>
+
+    {{-- inputfile image and remove --}}
+    <script>
+        
+    function readURL(input,img) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $(img).attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    $(".imgin").click(function () {
+        
+        //$(this).children("form-control").add("<button class='' style='font-weight: normal;'>Remove</button>")
+        $(this).change(function () {
+            $(this).siblings("i").remove();
+            $(this).siblings(".img222").remove();
+
+            $(this).parent(".form-control").prepend("<img class='img-responsive img-rounded img222' style='height:70% ;position:absolute;top:0px;left:0px'/>");
+
+
+            $(this).siblings(".img222").after("<button type='button' class='btn btn-danger' style='font-weight: bold; width:100%; height:30%; position:absolute;top:70%;left:0'>Remove</button>");
+            readURL(this, $(this).siblings(".img222"));
+            $(this).hide();
+            $(this).siblings(".btn").click(function () {
+                $(this).parent(".form-control").children(".img222").remove();
+                $(this).parent(".form-control").children(".imgin").show();
+                $(this).parent(".form-control").children(".imgin").val(null);
+                $(this).parent(".form-control").prepend("<i class='glyphicon glyphicon-plus'></i>");
+                $(this).parent(".form-control").children(".btn").remove();
+            });
+        });
+        
+
+    });
+    // $(document).ready(function() {
+    //     $('#dataTables-example').DataTable({
+    //         responsive: true
+    //     });
+    // });
+
+    </script>
+    </body>    
+</html>

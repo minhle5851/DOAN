@@ -1,0 +1,32 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+
+/* Style tab links */
+.tablink {
+    /*background-color: #fff;*/
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    box-shadow: 0px 7px 1px #f0f0f0;
+}
+
+/*.tablink:hover {
+    background-color: white;
+}*/
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+/*    height: 1300px;
+    margin-bottom: -800px;*/
+}
+#Buyer {background-color: #fff; color : black;}
+#Seller {background-color: #fff; color :black;}
